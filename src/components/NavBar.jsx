@@ -12,6 +12,9 @@ function NavBar() {
         <Link to="/" className={`${value==='Dark' ? "text-white" : "text-Black"}  ml-6 no-underline `}>
           Home
         </Link>
+        <Link to="/example2" className={`${value==='Dark' ? "text-white" : "text-Black"}  ml-6 no-underline `}>
+          Example 2
+        </Link>
       </div>
       <button
         className={`${value==='Dark' ? "bg-black text-white" : "color-white bg-white text-black "} px-4 py-2 rounded-md hover:bg-gray-600 transition`}

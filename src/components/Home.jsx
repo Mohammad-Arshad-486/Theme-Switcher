@@ -13,7 +13,7 @@ function Home() {
     >
       <h1  className={`${
     isDark ? "text-white" : "text-black"
-  } text-5xl absolute top-[20px] left-1/2 transform -translate-x-1/2 `}>
+  } text-5xl absolute top-5 left-1/2 transform -translate-x-1/2 `}>
         Home&nbsp;
         <img
           className="inline w-12 h-12"

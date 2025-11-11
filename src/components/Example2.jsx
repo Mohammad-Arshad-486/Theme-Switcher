@@ -24,7 +24,7 @@ function Example2() {
           alt="home"
         />
       </h1><p className="fixed top-50 right-30"><strong>Select Subject&nbsp;</strong>
-<select className="border" onChange={(event) => setSub(event.target.value)}>
+<select className={` ${isDark ? "text-White bg-black": "text-black bg-white"} "border"`} onChange={(event) => setSub(event.target.value)}>
         <option value=''>Select Subject</option>
         <option value='Maths'>Maths</option>
         <option value='English'>English</option>
